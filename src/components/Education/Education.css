@@ -1,0 +1,9 @@
+.custom-btn-div{
+    display: flex;
+    width: 500px;
+    margin-left: 500px;
+    justify-content: space-evenly;
+}
+.custom-btn{
+
+}
