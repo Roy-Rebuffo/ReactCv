@@ -1,11 +1,18 @@
-
-const About = ({about}) => {
+import '../About/About.css'
+const About = ({ hero }) => {
   return (
     <div>
-      <p>TODO!:aqui va el map que no me sale del about me!</p>
+    <div className="about-card">
+      {hero.map((item) => {
+        return (
+          <div key={item.info}>
+            <h2>{item.info}</h2>
+          </div>
+        );
+      })}
     </div>
-  )
-}
+    </div>
+  );
+};
 
-export default About
-
+export default About;

@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="App">
      <Hero hero = { hero }></Hero>
-     <About hero = { hero }></About>
+     <About hero = { hero.aboutMe }></About>
      <Education education = { education }></Education>
      <Experience></Experience>
     </div>
