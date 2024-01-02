@@ -1,7 +1,7 @@
 export const CV = {
     hero: {
       name: "Anthony",
-      adress: "Edward Stark",
+      adress: " Edward Stark",
       city: "Avengers Tower / New York",
       email: "tony@starkindustries.com",
       birthDate: "29/05/1970",

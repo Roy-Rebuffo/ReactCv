@@ -4,8 +4,9 @@ import About from './About/About';
 import Hero from './Hero/Hero'
 import Education from './Education/Education';
 import Experience from './Experience/Experience';
+import Languages from './Languages/Languages';
 
-const { hero, education} = CV;
+const { hero, education, languages} = CV;
 const App = () => {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ const App = () => {
      <About hero = { hero.aboutMe }></About>
      <Education education = { education }></Education>
      <Experience></Experience>
+     <Languages languages = { languages }></Languages>
     </div>
   )
 }

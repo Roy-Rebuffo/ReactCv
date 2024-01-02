@@ -1,4 +1,14 @@
-.about-card{
+.about-btn-div{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    object-fit: cover;
+    margin-top: 20px;
 }
+.about-card{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgba(240, 248, 255, 0.241);
+    width: 700px;
+    }
