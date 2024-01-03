@@ -12,3 +12,9 @@
     background-color: rgba(240, 248, 255, 0.241);
     width: 700px;
     }
+
+.title-about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

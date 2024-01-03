@@ -1,6 +1,8 @@
 import "./Volunteer.css";
 const Volunteer = ({ volunteer }) => {
   return (
+    <>
+    <h2 className="title-volunteer">Volunteer</h2>
     <div className="card-div">
       {volunteer.map((item) => {
         return (
@@ -12,6 +14,7 @@ const Volunteer = ({ volunteer }) => {
         );
       })}
     </div>
+    </>
   );
 };
 

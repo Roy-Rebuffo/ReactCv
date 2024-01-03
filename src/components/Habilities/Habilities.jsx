@@ -1,6 +1,8 @@
 import './Habilities.css'
 const Skills = ({ habilities }) => {
   return (
+    <>
+    <h2 className="title-habilities">Habilities</h2>
     <div className='card-div'>
     <div className='habilities-div'>
     <p>🔧{habilities[0]}</p>
@@ -12,8 +14,8 @@ const Skills = ({ habilities }) => {
     <p>🔧{habilities[6]}</p>
     <p>🔧{habilities[7]}</p>
     </div>
-      
     </div>
+    </>
   )
 }
 
