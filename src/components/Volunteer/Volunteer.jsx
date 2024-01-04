@@ -7,7 +7,7 @@ const Volunteer = ({ volunteer }) => {
       {volunteer.map((item) => {
         return (
             <div className="volunteer-div" key={JSON.stringify(item)}>
-              <h2>👓 {item.name}</h2>
+              <strong><h2>👓 {item.name}</h2></strong>
               <p>{item.where}</p>
               <p>{item.description}</p>
           </div>

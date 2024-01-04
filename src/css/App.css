@@ -3,9 +3,25 @@ body{
     background: linear-gradient(175deg, rgba(208,205,205,1) 0%, rgba(88,123,158,1) 100%);
 }
 .switch-btn{
-   margin-top: 20px;
+    margin: 10px;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #000407;
+    outline: none;
+    transition: .1s ease-in-out;
+    
 }
 .father-switch-btn{
     display: flex;
     justify-content: center;
+    
 }
+
+.switch-btn:hover,
+.switch-btn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
